@@ -9,12 +9,14 @@
 
 ### Outstanding Feedback Tracker with Trello
 
-**_tagFeedbackWithTrello.gs_** - Google Script code that can be attached to any Google Document
- (We used one of our spreadsheets) that scans our Badge List metadata to determine a list of 
- outstanding badge feedback requests that are then compared against corresponding cards in an
- appropriate Trello list managed by us. If a feedback request is found to be new, a new card 
- is created for the list (a Todo list,) and an alert is sent to one of our Slack chat channels 
- (requires some additional set up.)
+**_tagFeedbackWithTrello.gs_** - Google Script code that can be
+ attached to any Google Document (We used one of our spreadsheets.)
+ This script scans our Badge List metadata to determine a list of
+ outstanding badge feedback requests that are then compared against
+ corresponding cards in an appropriate Trello list managed by us. If a
+ feedback request is found to be new, a new card is created for the
+ list (a Todo list,) and an alert is sent to one of our Slack chat
+ channels (requires some additional set up.)
 
  Information on using Google Scripts - [https://www.google.com/script/start/](https://www.google.com/script/start/)
 
